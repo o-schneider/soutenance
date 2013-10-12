@@ -101,30 +101,31 @@ q {
     font-style: italic;
 }
 
-.slide .front {
+/* title style */
+.slide.title {
 	text-align: center;
 }
 
-.slide .front>h1 {
+.slide.title h1 {
 	font-size: 50px;
 	margin-top:200px;
     margin-bottom: 50px;
 }
 
-.slide .front>h3 {
+.slide.title h3 {
     font-size: 25px;
     line-height: 45px;
 }
 
-.slide .front>.author{
+.slide.title .author{
     font-size: 18px;
     text-align: right;
     margin-top:150px;
     margin-right:20px;
 }
 
-
-.slide>h1 {
+/* text style */
+.slide.text h1 {
 	background-image: linear-gradient(to top, #bb482d, #cd6723);
 	height: 100px;
     border-radius: 7px 7px 0 0;
@@ -135,29 +136,38 @@ q {
 }
 
 
-.slide .content {
+.slide.text .content {
     display: block;
     padding: 40px;
     font-size: 36px;
 }
 
-.slide .content p {
+.slide.text .content p {
     margin-bottom: 10px;
 }
-.slide .content ul,ol {
+.slide.text .content ul,ol {
 	padding-left:20px;
 }
 
-ul,ol>li>ul,ol {
+.slide.text ul,ol>li>ul,ol {
     font-size:80%;
 }
 
-.slide .content .third {
+.slide.text .content .third {
 	width:33%;
 	max-width:33%;
 	overflow: hidden;
 	padding-right:10px;
 }
+
+.slide.text .content .two-third {
+    width:66%;
+}
+
+.slide.text .content strong {
+    white-space: nowrap;
+}
+
 
 img.fit-height {
 	height:100%;
@@ -171,20 +181,22 @@ img.strech {
     width:100%;
 }
 
-.slide .content .two-third {
-	width:66%;
-}
-
-.slide .content strong {
-    white-space: nowrap;
-}
 
 #table-of-contents {
-    line-height: 50px;
+    font-size:25px;
+    line-height:30px;
 }
 
-#table-of-contents>li>ol {
-    line-height: 30px;
+#table-of-contents li {
+    padding-top:20px;
+}
+
+#table-of-contents li>ol {
+    padding-top:8px;
+}
+
+#table-of-contents li>ol>li {
+    padding-top:0px;
 }
 
 .presentation li {

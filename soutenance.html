@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html ng-app lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
@@ -13,235 +13,64 @@
     
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <script src="lib/angular.min.js"></script>
 </head>
 <body>
 	<div id="impress">
-		<!-- Slide 1 -->
-		<div id="start" class="step slide" data-x="1000" data-y="-1500">
-			<div class="front">
-				<h1>Le développement d'applications web mobiles</h1>
-                <h3>Soutenance du mémoire de fin d'études <br />
-                SUPINFO International University <br />
-                Société Intuitive</h3>
-			</div>
-    	</div>
-
-        <!-- Slide 2 -->
-        <div class="step slide" data-x="2000" data-y="-1500">
-            <h1>
-                Présentation
-            </h1>
-            <div class="content">
-                <div class="third left">
-                    Photo/gravatar?
-                </div>
-                <div class="two-third right presentation">
-                    <h3>Olivier Schneider</h3>
-                    <ul>
-                        <li>Développeur Java et Web</li>
-                        <li>Amateur des technologies libres</li>
-                        <li>Formateur Linux et Web</li>
-                    </ul>
-                </div>
-
-            </div>
+        <div id="start" class="step slide title" data-x="1000" data-y="-1500">
+            <ng-include src="'slides/01-titre.html'" />
         </div>
 
-        <!-- Slide 3 -->
-		<div class="step slide" data-x="3000" data-y="-1500">
-			<h1>
-				Table des matières
-			</h1>
-        	<div class="content">
-        		<ol id="table-of-contents">
-                    <li>
-                        Introduction
-                        <ol>
-                            <li>Sujet</li>
-                            <li>L'entreprise</li>
-                            <li>Contexte</li>
-                            <li>Problématique</li>
-                        </ol>
-                    </li>
-        			<li>
-                        Maquette d'application web mobile
-        				<ol>
-                            <li>La maquette</li>
-                            <li>Technologies utilisées</li>
-                            <li>Ingénierie logicielle</li>
-                            <li>Déroulement du projet</li>            
-                        </ol>
-        			</li>
-                    <li>
-                        Bilan du stage
-                        <ol>
-                            <li>Acquis techniques</li>
-                            <li>Acquis organisationnels</li>
-                            <li>Application de ces compétences</li>
-                        </ol>
-                    </li>
-                    <li>Conclusion</li>
-        		</ol>
-        	</div>
-		</div>
-
-        <!-- Slide 4 -->
-        <div class="step slide" data-x="4000" data-y="-1500">
-            <div class="front">
-                <h1>Introduction</h1>
-            </div>
+        <div class="step slide text" data-x="2000" data-y="-1500">
+            <ng-include src="'slides/02-presentation.html'" />
         </div>
 
-        <!-- Slide 5 -->
-        <div class="step slide" data-x="5000" data-y="-1500">
-            <h1>
-                Sujet
-            </h1>
-            <div class="content">
-                <ul>
-                    <li>Technologies du web pour créer des applications mobiles</li>
-                    <li>
-                        Comparaisaion avec les technologies existantes
-                        <ul>
-                            <li>Natives</li>
-                            <li>Hybrides</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+        <div class="step slide text" data-x="3000" data-y="-1500">
+            <ng-include src="'slides/03-table-des-matieres.html'" />
         </div>
 
-        <!-- Slide 6 -->
-        <div class="step slide" data-x="6000" data-y="-1500">
-            <h1>
-                L'entreprise
-            </h1>
-
-            <div class="content">
-                <div class="third left logo-container">
-                    <img src="images/logo.png" class="logo" id="logo-intuitive"> <br/>
-                    <img src="images/logo-res.png" class="logo">
-                </div>
-                <div class="two-third right presentation">
-                    <h3>Intuitive</h3>
-                    <ul>
-                        <li>Éditeur logiciel dédié à la santé</li>
-                        <li>Expertise Java et Web</li>
-                        <li>
-                            ResUrgences
-                            <ul>
-                                <li>Application web de gestion des services d'Urgences</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="step slide title" data-x="4000" data-y="-1500">
+            <ng-include src="'slides/04-environnement.html'" />
         </div>
 
-        <!-- Slide 7 -->
-        <div class="step slide" data-x="7000" data-y="-1500">
-            <h1>
-                Contexte
-            </h1>
-            <div class="content presentation">
-                <h3>
-                    Explosion de la mobilité
-                </h3>
-                <ul>
-                    <li>Démocratisation des smartphones</li>
-                    <li>Réussite des tablettes numériques</li>
-                </ul>
-                <h3>Le web face à ce défi</h3>
-                <ul>
-                    <li>Le web des applications</li>
-                    <li>Le web mobile</li>
-                </ul>
-
-            </div>
+        <div class="step slide text" data-x="5000" data-y="-1500">
+            <ng-include src="'slides/05-sujet.html'" />
         </div>
 
-        <!-- Slide 8 -->
-    	<div class="step slide" data-x="8000" data-y="-1500">
-			<h1>
-				Problématique
-			</h1>
-        	<div class="content problematique">
-                Compte tenu de leurs récentes avancées et de leurs supports grandissants sur mobile, les technologies du Web permettent-elles dès à présent de réaliser une application mobile satisfaisante à la fois en termes de performances et d'expérience utilisateur ?                    
-        	</div>
-    	</div>
-	
-
-        <!-- Slide 9 -->
-        <div class="step slide" data-x="9000" data-y="-1500">
-            <div class="front">
-                <h1>Réalisation de la maquette</h1>
-            </div>
+        <div class="step slide text" data-x="6000" data-y="-1500">
+            <ng-include src="'slides/06-entreprise.html'" />
         </div>
 
-       
-        <!-- Slide 10 -->
-        <div class="step slide" data-x="10000" data-y="-1500">
-            <h1>
-                La maquette
-            </h1>
-            <div class="content presentation">
-                <ul>
-                    <li>Développer une application web mobile</li>
-                    <li>Reprendre de l'application ResSMUR en version allégée</li>
-                    <li>Iplémenter les besoins des clients d'Intuitive</li>
-                    <li>Répondre à la problématique</li>
-                </ul>
-            </div>
+        <div class="step slide text" data-x="7000" data-y="-1500">
+            <ng-include src="'slides/07-contexte.html'" />
+        </div>
+
+        <div class="step slide text" data-x="8000" data-y="-1500">
+            <ng-include src="'slides/08-problematique.html'" />
         </div>
     
-        <!-- Slide 11 -->
-        <div class="step slide" data-x="11000" data-y="-1500">
-            <h1>
-                Technologies utilisées
-            </h1>
-            <div class="content presentation">
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>AngularJS</li>
-                    <li>Node.JS</li>
-                </ul>
-            </div>
+        <div class="step slide title" data-x="9000" data-y="-1500">
+            <ng-include src="'slides/09-maquette-titre.html'" />
         </div>
 
-        <!-- Slide 12 -->
-        <div class="step slide" data-x="12000" data-y="-1500">
-            <h1>
-                Ingénierie logicielle
-            </h1>
-            <div class="content presentation">
-                <ul>
-                    <li>Structurer l'application</li>
-                    <li>Tester son fonctionnement</li>
-                    <li>Gérer ses dépendances</li>
-                    <li>Automatiser les tâches</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Slide 13 -->
-        <div class="step slide" data-x="13000" data-y="-1500">
-            <h1>
-                Déroulement du projet
-            </h1>
-            <div class="content presentation">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
+        <div class="step slide text" data-x="10000" data-y="-1500">
+            <ng-include src="'slides/10-maquette.html'" />
         </div>
     
+        <div class="step slide text" data-x="11000" data-y="-1500">
+            <ng-include src="'slides/11-technologies.html'" />
+        </div>
+
+        <div class="step slide text" data-x="12000" data-y="-1500">
+            <ng-include src="'slides/12-ingenierie.html'" />
+        </div>
+
+        <div class="step slide text" data-x="13000" data-y="-1500">
+            <ng-include src="'slides/13-deroulement.html'" />
+        </div>
     </div>
 
-	<script src="lib/impress.js"></script>
-	<script>impress().init();</script>
+	<script src="lib/impress.js"></script>    
+    <script>impress().init();</script>
 </body>
 </html>
