@@ -1,0 +1,42 @@
+A. Titre
+B. Moi
+C. Sommaire
+1. Introduction
+2. Présentation de l'entreprise
+	-> Editeur logiciel dédié à la santé
+		-> Produit principal : ResUrgences
+	-> Equipe de développement de 5 personnes
+3. Maquette d'application mobile
+	3.1. Contexte et enjeu de la réalisation
+		->
+	3.2. Technologies utilisées
+		-> Full web
+			-> CSS3/HTML5/JS
+		-> Frameworks
+			-> AngularJS, Jasmine
+	3.3. Ingénierie logicielle
+		-> Automatisation
+		-> Gestion de dépendance
+		-> Testing
+	3.4. Organisation du travail
+		-> Autonomie
+		-> Discussion des specs
+		-> Agilité
+III - Bilan
+	7. Acquis techniques
+		-> Reprendre le mémoire
+	8. Acquis organisationnels
+		-> Reprendre le mémoire
+	9. Application des compétences
+		-> Outil qui extrait de l'information du repo git et les met en forme pour diffusion
+		-> Projet réalisé après la réalisation du projet du mémoire
+		-> Réapplication des compétences acquises
+			-> Ingénierie (TDD, maven, jenkins)
+			-> Autonomie
+			-> Adaptation au changement
+		-> Impact sur l'équipe
+			-> Solution mise en production aujourd'hui
+IV. Conclusion
+	-> orientation professionnelle
+	-> remerciement
+V - Petit finish

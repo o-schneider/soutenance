@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Soutenance du mémoire</title>
+    
+    <meta name="description" content="diaporama de la soutenane de mon mémoire de fin d'étude à supinfo" />
+    <meta name="author" content="Olivier Schneider" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="soutenance.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+<body>
+	<div id="impress">
+		
+		<div id="start" class="step slide" data-x="-2000" data-y="-1500">
+			<div class="front">
+				<h1>Soutenance du mémoire de fin d'étude</h1>
+			</div>
+    	</div>
+
+		<div class="step slide" data-x="-1000" data-y="-1500">
+			<h1>
+				Titre de la diapositive
+			</h1>
+        	<div class="content">
+        		<p>The quick brown fox jumps over the lazy dog</p>
+        		<ul>
+        			<li>
+        				list element 1
+        			</li>
+        			<li>
+        				list element 2
+        			</li>
+        		</ul>
+        	</div>
+		</div>
+
+    	<div class="step slide" data-x="0" data-y="-1500">
+			<h1>
+				Diapo
+			</h1>
+        	<div class="content">
+        		<div class="third left">
+        			<img src="images/my-img.jpg" class="fit" />
+        		</div>
+        		<div class="two-third right">
+        			On the right
+        		</div>
+        	</div>
+    	</div>
+
+    	<div class="step slide" data-x="1000" data-y="-1500">
+			<h1>
+				Diapo 3
+			</h1>
+        	<div class="content">
+        		<div class="two-third left">
+        			On the left
+        		</div>
+        		<div class="third right">
+        			<img src="images/my-img.jpg" class="fit" />
+        		</div>
+        	</div>
+    	</div>
+
+	</div>
+
+	<script src="impress.js"></script>
+	<script>impress().init();</script>
+</body>
+</html>
