@@ -172,7 +172,6 @@ q {
 .slide.text .content .third {
 	width:33%;
 	max-width:33%;
-	overflow: hidden;
 	padding-right:10px;
 }
 
@@ -281,6 +280,11 @@ img.strech {
     margin-bottom: 20px;
 }
 
+#trello {
+    margin-top:150px;
+    width:300px;
+}
+
 #alternatives>.left>ul>li:first-child {
     margin-bottom: 120px;
 }
@@ -291,4 +295,16 @@ img.strech {
 
 #apples {
     bottom:56px;
+}
+
+#procedure {
+    height:200px;
+    bottom: 100px;
+}
+
+#thanks {
+    margin-top:270px;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
 }
