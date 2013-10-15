@@ -198,21 +198,9 @@ img.strech {
 
 
 #table-of-contents {
-    font-size:25px;
-    line-height:30px;
-}
+    font-size:40px;
+    line-height:100px;}
 
-#table-of-contents li {
-    padding-top:20px;
-}
-
-#table-of-contents li>ol {
-    padding-top:8px;
-}
-
-#table-of-contents li>ol>li {
-    padding-top:0px;
-}
 
 .presentation li {
     margin-bottom:50px;
@@ -252,8 +240,8 @@ img.strech {
     text-align: center;
 }
 
-.charts {
-    height:200px;
+.chart {
+    margin-top:70px;
 }
 
 .charts2 {
@@ -271,8 +259,7 @@ img.strech {
 }
 
 .image-in-list {
-    height:125px;
-    vertical-align:middle;
+    height:200px;
 }
 
 .logo {
@@ -343,4 +330,8 @@ td.nope {
 
 td.mid-nope {
     background-color: #e84c00;
+}
+
+ul.no-bullets {
+    list-style-type: none;
 }
