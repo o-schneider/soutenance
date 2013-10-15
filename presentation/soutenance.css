@@ -254,8 +254,9 @@ img.strech {
     height:150px;
 }
 
-#web {
-    bottom:120px;
+#idc {
+    bottom:-100px;
+    font-size:20px;
 }
 
 .image-in-list {
@@ -296,23 +297,23 @@ img.strech {
     font-style: italic;
 }
 
-table {
+table.results {
     width:100%;
     font-size: 25px;
     border:1px solid lightgray;
     border-collapse: collapse;
 }
 
-table th, table td  {
+table.results th, table.results td  {
     padding:10px;
     border:1px solid lightgray;
 }
 
-table tr>th:first-child {
+table.results tr>th:first-child {
    text-align: right;
 }
 
-table td {
+table.results td {
     width: 150px;
 }
 
@@ -334,4 +335,47 @@ td.mid-nope {
 
 ul.no-bullets {
     list-style-type: none;
+}
+
+table.smartphone-evol {
+    vertical-align: middle;
+    text-align: center;
+    width:100%;
+    font-size: 35px;
+}
+
+table.smartphone-evol th {
+    height:150px;
+    
+}
+table.smartphone-evol td {
+    width:33%;
+    vertical-align: middle;
+}
+
+
+td.evol {
+    font-size: 50px;
+    color: #00c60e;
+}
+
+td.q2013 {
+    font-size: 65px;
+}
+
+.web-images {
+    height:350px;
+    box-shadow: 0 0 20px black;
+}
+
+#wiki {
+    position: relative;
+    top: -310px;
+    left: 150px;
+}
+
+#drive {
+    position: relative;
+    top: -630px;
+    left: 300px;
 }
