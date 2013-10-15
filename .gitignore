@@ -1,5 +1,6 @@
 logs/*
 !.gitkeep
+*.odt
 
 # NodeJS
 lib-cov
