@@ -308,3 +308,39 @@ img.strech {
     text-align: center;
     font-style: italic;
 }
+
+table {
+    width:100%;
+    font-size: 25px;
+    border:1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table th, table td  {
+    padding:10px;
+    border:1px solid lightgray;
+}
+
+table tr>th:first-child {
+   text-align: right;
+}
+
+table td {
+    width: 150px;
+}
+
+td.good {
+    background-color: #00c60e;
+}
+
+td.mid {
+    background-color: #3aa0ff;
+}
+
+td.nope {
+    background-color: #ff2121;
+}
+
+td.mid-nope {
+    background-color: #e84c00;
+}
