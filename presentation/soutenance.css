@@ -56,7 +56,10 @@ time, mark, audio, video {
     background: radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
 }
 
-b, strong { font-weight: bold }
+b, strong { 
+    font-weight: bold;
+    color:#cd6723;
+}
 i, em { font-style: italic }
 
 .left {
