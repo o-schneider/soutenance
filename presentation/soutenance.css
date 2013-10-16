@@ -406,3 +406,7 @@ td.q2013 {
 #itu {
     font-size:20px;
 }
+
+.shadow {
+    box-shadow: 0 0 20px black;
+}
