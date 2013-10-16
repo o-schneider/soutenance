@@ -339,17 +339,18 @@ ul.no-bullets {
 }
 
 table.smartphone-evol {
-    vertical-align: middle;
     text-align: center;
     width:100%;
     font-size: 35px;
 }
 
 table.smartphone-evol th {
+    vertical-align: middle;
     height:150px;
     
 }
 table.smartphone-evol td {
+    height:200px;
     width:33%;
     vertical-align: middle;
 }
